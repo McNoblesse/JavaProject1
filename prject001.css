@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(110, 175, 13);
+    height: 100vh;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.maincontainer {
+    /* background-color: blue; */
+    padding: 50px;
+    
+}
+
+.container1 {
+    background-color: gold;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container2 {
+    background-color: brown;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 30px; */
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.btn1 {
+    background-color: rgb(110, 175, 13) ;
+    /* padding: 5px 40px; */
+    width: 150px;
+}
+
+.btn1:hover {
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 4px 1px rgb(110, 175, 13);
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.btn2 {
+    background-color: gold ;
+    /* padding: 5px 40px; */
+    width: 100%;
+    color: rgb(110, 175, 13);
+    font-size: 15px;
+}
+
+.btn2:hover {
+    background-color: rgb(110, 175, 13);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 4px 1px gold;
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(37, 114, 37);
+    width: 100%;
+    text-align: center;
+    padding: 5vh;
+}
